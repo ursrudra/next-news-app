@@ -1,0 +1,20 @@
+.paginator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;  
+}
+.paginator > button{
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.paginator > button:disabled{
+    color: #ccc;
+    cursor: not-allowed;
+}
+.paginator > button:not(:disabled):hover{
+    color: orangered;
+}

@@ -1,0 +1,38 @@
+.nav {
+  max-width: 500px;
+  max-width: 60ch;
+  min-width: 300px;
+  margin: 0 auto;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: -1px;
+
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul li {
+  flex: 1;
+  cursor: pointer;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.nav ul li:hover {
+  color: #000;
+  background-color: white;
+}
